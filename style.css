@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Black+And+White+Picture|Concert+One|Dokdo|PT+Sans+Narrow|Rancho|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans|Quicksand');
+/* 
+
+font-family: 'Ubuntu', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Black And White Picture', sans-serif;
+font-family: 'Dokdo', cursive;
+font-family: 'Concert One', cursive;
+font-family: 'Rancho', cursive; 
+
+*/
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.head{
+    height: 70vh;
+    width: 100vw;
+    background: #f5f6fa;
+}
+
+.footer{
+    background: #fff;
+    height: 30vh;
+    width: 100vw;
+    display:  flex;
+    align-items:  center;
+    justify-content:  space-evenly;
+}
+
+.header {
+    height: 20vh;
+    padding:  0 83px;
+    display:  flex;
+    align-items:  center;
+    justify-content: space-between;
+    /* box-shadow: 1px 1px 30px -11px #8563ffa3; */
+}
+img.logo {
+    width: 70px;
+    border-radius: 100%;
+    /* box-shadow: 1px 1px 30px -11px #8563ffa3; */
+    height: 70px;
+}
+
+.logo-holder > div {
+    display:  flex;
+    margin:  0 3px;
+    align-items:  center;
+}
+
+.logo-holder > div > div {
+    /* margin: 0 4px; */
+    font-size: 29px;
+    /* letter-spacing: 2px; */
+}
+
+.logo-holder {
+    display:  flex;
+    align-items:  center;
+}
+
+.logo-holder > div > div:first-child {
+    font-weight: 500;
+    font-size: 34px;
+}
+
+.logo-holder > div > div:not(:first-child) {
+    color: #8563ff;
+    font-weight:  700;
+    font-size: 25px;
+}
+
+.menu-holder {
+    display:  flex;
+    align-items:  center;
+    justify-content:  space-around;
+}
+
+.menu-holder > div {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing:  2px;
+    margin:  0 10px;
+    cursor:  pointer;
+    color: #585656;
+}
+
+.menu-holder > div:hover {
+    color: #8563ff;
+}
+
+.soc-icon > div > i {
+    font-size:  66px;
+    color: #2f2f2f;
+    cursor:  pointer;
+    transition: all 0.5s;
+}
+
+.soc-icon > div > i:hover {
+    color: #734efd;
+}
+
+.soc-icon > div {
+    align-items:  center;
+    text-align:  center;
+}
+
+
+.menu-holder > div.active {
+    color:  #000;
+    font-weight:  700;
+}
