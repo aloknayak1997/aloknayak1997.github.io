@@ -16,9 +16,10 @@ body{
 }
 
 .head{
-    height: 70vh;
+    height: fit-content;
     width: 100vw;
     background: #f5f6fa;
+    padding: 12px 0;
 }
 
 .footer{
@@ -31,7 +32,7 @@ body{
 }
 
 .header {
-    height: 20vh;
+    height: auto;
     padding:  0 83px;
     display:  flex;
     align-items:  center;
