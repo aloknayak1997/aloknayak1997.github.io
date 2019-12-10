@@ -35,7 +35,12 @@ $(function() {
   mailChimp();
 
 
-  $('select').niceSelect();
+  $(document).ready(function () {
+    setTimeout(function () {
+        $('div#overlay').fadeOut();
+    }, 900);
+  });
+
 
     /*-------------------------------------------------------------------------------
 	  testimonial slider
