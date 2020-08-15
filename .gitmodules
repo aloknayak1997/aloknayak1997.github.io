@@ -1,3 +1,7 @@
 [submodule "techastra"]
 	path = techastra
 	url = https://github.com/aloknayak1997/Techastra-Landing-Page.git
+[submodule "alert-assignment-modal"]
+	path = alert-assignment-modal
+	url = https://github.com/aloknayak1997/alert-assignment-modal.git
+	branch = master
